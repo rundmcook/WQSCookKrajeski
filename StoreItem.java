@@ -23,6 +23,7 @@ public class StoreItem {
      * @param serial the serial number for the item
      * @param price the price of an item
      * @param brand the brand of the item
+     * @param quantity the amount of an item
      */
     public StoreItem(String name, int serial, double price, String brand, int quantity) {
         this.name = name;
