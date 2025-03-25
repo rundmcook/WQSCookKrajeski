@@ -15,6 +15,7 @@ public class StoreItem {
     private double price;
     private String brand;
     private int quantity;
+    private String returnPolicy = "Return the item within 30 days for a refund";
 
     //constructor
     /**
