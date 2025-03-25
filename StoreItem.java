@@ -16,6 +16,7 @@ public class StoreItem {
     private String brand;
     private int quantity;
     private String returnPolicy = "Return the item within 30 days for a refund";
+    //default tax rate on all non food items
     private double tax = .07
 
     //constructor
@@ -138,6 +139,6 @@ public class StoreItem {
      */
     @Override
     public String toString() {
-        return String.format("Item: %s%nSerial Number:%d%nPrice:%.2f%nBrand:%s", getName(), getSerial(), getPrice(), getBrand());
+        return String.format("%-15s %10i %10d %10s %10i", getName(), getSerial(), getPrice(), getBrand(), getQuantity());
     }
 }
