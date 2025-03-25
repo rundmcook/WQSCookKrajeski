@@ -28,7 +28,8 @@ public class FoodItem extends StoreItem{
         this.calories = calories;
         this.expiration = expiration;
         //food items have a different tax rate than other items
-        this.tax = .08
+        this.tax = .08;
+        this.returnPolicy = "No returns on food";
     }
 
     //getters-accessors
