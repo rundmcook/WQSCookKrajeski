@@ -16,6 +16,7 @@ public class StoreItem {
     private String brand;
     private int quantity;
     private String returnPolicy = "Return the item within 30 days for a refund";
+    private double tax = .07
 
     //constructor
     /**
@@ -75,6 +76,19 @@ public class StoreItem {
         return quantity;
     }
 
+     /**
+     * accessor for tax rate
+     */
+    public double getTax() {
+        return tax;
+    }
+
+    /**
+     * accessor for return policy
+     */
+    public String getReturnPolicy() {
+        return returnPolicy;
+    }
 
     //setters-mutators
     /**
