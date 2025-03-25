@@ -52,9 +52,6 @@ public Class WQSCookKrajeski{
             System.out.println(item);
         }
     }
-    public void checkout(){
-
-    }
 
     public static void main(String[] args){
         System.out.print("Would you like to sell an item or add an item to inventory? (sell/add): ");
@@ -154,7 +151,7 @@ public Class WQSCookKrajeski{
                 System.out.println("Checkout complete");
             }
             else{
-                
+                /////UNFINISHED
             
         }
         else if response == "add"{
@@ -178,7 +175,7 @@ public Class WQSCookKrajeski{
                             case 1:
                                 System.out.println("Enter the name of the item you would like to add to: ");
                                 response = kb.next();
-                                
+                                ////////UNFINISHED
                         break;
                     case "electronics":
                         break;
