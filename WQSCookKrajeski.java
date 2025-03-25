@@ -175,7 +175,18 @@ public Class WQSCookKrajeski{
                             case 1:
                                 System.out.println("Enter the name of the item you would like to add to: ");
                                 response = kb.next();
-                                ////////UNFINISHED
+                                for(StoreItem a : tempView){
+                                    if a.getName() == response{
+                                        System.out.print("Enter new quantity for this item: ");
+                                        a.setQuantity(kb.next());
+                                        break;
+                                    }
+                                }
+                                System.out.println("This item is not present in the inventory");
+                                break;
+                            case 2:
+                                
+                                
                         break;
                     case "electronics":
                         break;
