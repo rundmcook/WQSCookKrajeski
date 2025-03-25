@@ -27,6 +27,7 @@ public class FoodItem extends StoreItem{
         super(name, serial, price, brand, quantity);
         this.calories = calories;
         this.expiration = expiration;
+        this.tax = .08
     }
 
     //getters-accessors
