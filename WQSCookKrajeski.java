@@ -6,6 +6,26 @@ public Class WQSCookKrajeski{
     private List<StoreItem> cart = new ArrayList<StoreItem>();
     private List<StoreItem> tempView = new ArrayList<StoreItem>();
 
+/**
+ *  WQSCookKrajeski.java
+ *  This is the driver file for the WQS project, using StoreItem and its subclasses
+ *
+ *  @author Jonathon Krajeski, Dillon Cook
+ *  Date: March 30, 2025
+ *  Section: CSC-331-001
+ *
+ *  Purpose: To create a working shop using the StoreItem object and its subclasses
+ */
+public class WQSCookKrajeski{
+    static Scanner kb = new Scanner(System.in);
+    private static ArrayList<StoreItem> inventory = new ArrayList<StoreItem>();
+    private ArrayList<StoreItem> cart = new ArrayList<StoreItem>();
+    private static ArrayList<StoreItem> tempView = new ArrayList<StoreItem>();
+
+    /**
+     * Method to add an object to the inventory, keeping quantity in account
+     * @param item item to be added to inventory
+     */
     public void addToInventory(StoreItem item){
         boolean check = true;
         for(StoreItem a : inventory){
