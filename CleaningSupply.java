@@ -8,7 +8,7 @@
  *
  * Purpose: To have a Cleaning supply specific class for the store
  */
-public class CleaningSupply {
+public class CleaningSupply extends HouseholdItem{
     private String usedToClean;
 
     public CleaningSupply(String name, int serial, double price, String brand, int quantity, String roomOfUse, String usedToClean) {
